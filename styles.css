@@ -1,0 +1,26 @@
+// OH SHIT ARE THESE CSS VARIABLES? Yes, my friend. They are.
+html {
+--red-dark: #D32F2F;
+--red-light: #F44336;
+--pink-light: #FFCDD2;
+--white: #FFFFFF;
+--golden: #FFC107;
+--gray-dark: #212121;
+--gray-medium: #757575;
+--gray-light: #BDBDBD;
+}
+
+body {
+	font-family: "Roboto Condensed", sans-serif;
+	--gray-dark: #212121;
+	background: var(--gray-dark);
+	--gray-light: #BDBDBD;
+	color: var(--gray-light);
+}
+
+h1,h2,h3 {
+	font-family: "Shrikhand", sans-serif;
+	color: var(--red-light);
+	--red-light: #F44336;
+	letter-spacing: 2px;
+}
